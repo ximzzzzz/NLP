@@ -84,6 +84,22 @@
 
 
 
+### Fine tuning (approach)
+
+최적화를 위해 pretrained model을 사용할 시 다운스트림 task 에 맞춰 레이어를 추가하고 
+
+최적화 과정에서 pretrained model까지 함께 학습하는 방식 
+
+> pretrained model 의 파라미터가  task에 맞춰 추가 학습을 진행한다.
+
+### Feature-based (approach)
+
+최적화를 위해 pretrained model을 사용할 시 다운스트림 task에 맞춰 추가되는 레이어는 학습되고
+
+pretrained model 의 기존 학습된 파라미터는 유지하는 방식
+
+
+
 ### GloVe
 
 word2vec 과 잠재의미분석 각각의 단점을 개선시킨 모델 각 단점은 아래와 같다
